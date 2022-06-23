@@ -1,0 +1,50 @@
+[
+    {
+        "localName": "CupCakes Café",
+        "localCity": "Pérez",
+        "localURL": "/pages/cafe.html",
+        "localAction": "Reservas",
+        "localSurname": "Cafetería",
+        "localImage": ""
+    },
+    {
+        "localName": "Yupi",
+        "localCity": "Casilda",
+        "localURL": "/pages/heladeria.html",
+        "localAction": "Delivery",
+        "localSurname": "Heladería",
+        "localImage": "class=\"--articleice\""
+    },
+    {
+        "localName": "Resto Jorge",
+        "localCity": "Casilda",
+        "localURL": "/pages/resto.html",
+        "localAction": "Reservas y delivery",
+        "localSurname": "Restaurante",
+        "localImage": "class=\"--articlecafe\""
+    },
+    {
+        "localName": "Pixel",
+        "localCity": "Soldini",
+        "localURL": "/pages/resto.html",
+        "localAction": "Reservas",
+        "localSurname": "Restaurante",
+        "localImage": "class=\"--articlecafe\""
+    },
+    {
+        "localName": "Gustitos",
+        "localCity": "Rosario",
+        "localURL": "/pages/heladeria.html",
+        "localAction": "Delivery",
+        "localSurname": "Heladería",
+        "localImage": "class=\"--articleice\""
+    },
+    {
+        "localName": "Yupi",
+        "localCity": "Pérez",
+        "localURL": "/pages/heladeria.html",
+        "localAction": "Delivery",
+        "localSurname": "Heladería",
+        "localImage": "class=\"--articleice\""
+    }
+]

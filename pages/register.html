@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+	<meta name="author" content="Catriel Kahla">
+	<meta name="description" content="Un sitio web donde podrás encontrar artículos y secciones en las que hayarás información de los diferentes temas y ámbitos.">
+	<meta name="keywords" content="kiwi, artículos, secciones, información, kiwisite, programación, javascript, css, html, Catriel, Kahla">
+	<link rel="icon" href="../images/icon.ico">
+	<link rel="stylesheet" href="../css/main.css">
+	<link rel="stylesheet" href="../css/bootstrap.min.css">
+	<script src="../lib/bootstrap.min.js"></script>
+    <title>Kiwi-site | Registrarse</title>
+</head>
+<body class="body">
+    <header class="header-new">
+		<article class="article-nav">
+			<div class="nav__div1">
+				<img class="div1__img" src="../images/image2.png" alt="kiwi">
+				<a class="div1__kiwi" href="../index.html">
+					<h1 class="textsize-3">Kiwi-site!</h1>
+				</a>
+			</div>
+		</article>
+
+		<div class="div--nav">
+			<span id="articleBack" class="artUser__out"></span>
+			<article class="article-nav artNav">
+				<img src="../images/userIco.png" alt="user"><p id="userTextt">@UserName</p>
+				<span id="userInfo" class="artUser">
+					<div class="userInfo">
+						<a href="userInfo.html"><p>Editar perfil</p></a><hr>
+						<p id="logOut">Cerrar sesión</p>
+					</div>
+				</span>
+			</article>
+			<article class="article-nav artNav" >
+				<img src="../images/burgerList.png" alt="pagesList" id="pagesList">
+				<span id="pagessListB" class="artUser">
+					<div class="userInfo" id="pagessList">
+						<h5 class="offcanvas-title textsize-3" id="offcanvasNavbarLabel">Kiwi-Food</h5><hr>
+						<ul class="navbar-nav justify-content-end flex-grow-1 pe-3 textsize-2">
+							<li class="nav-item">
+					  			<a class="nav-link active" aria-current="page" href="kiwiResto.html">Home</a>
+							</li>
+							<li class="nav-item">
+					  			<a class="nav-link" href="register.html">Registrarse</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="kiwi.html">¿Qué es Kiwi?</a>
+						  	</li>
+						  	<li class="nav-item">
+								<a class="nav-link" href="developer.html">Desarrollador</a>
+					  		</li>
+							<li class="nav-item dropdown">
+					  			<a class="nav-link dropdown-toggle" href="" id="offcanvasNavbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+									Lugares de comida...
+					  			</a>
+					  			<ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown" id="restoList">
+									
+					  			</ul>
+							</li>
+				  		</ul>
+					</div>
+				</span>
+			</article>
+		</div>
+	</header>
+    <main>
+		<section>
+			<div class="section1__div1">
+				<img class="div1__image" src="../images/image1.png" alt="Kiwi">
+				<h2 class="div1__txt">Regístrate en Kiwi</h2>
+				<hr>
+			</div>
+			<div class="main__divresto">
+				<div class="main__restoBox main__restoBox--3">
+					<h3><i> Ingrese datos</i></h3>
+					<hr>
+					<form action="">
+						<label for="">Usuario:</label>
+						<input type="text" name="" autofocus id="user">
+						<label for="">Contraseña:</label>
+						<input type="text" name="" id="password"><br>
+						<label for="">Télefono:</label>
+						<input type="number" id="phone">
+						<label for="">Confirmar contraseña:</label>
+						<input type="text" name="" id="pssconf">
+						<label for="">Dirección:</label>
+						<input type="text" id="adress">
+						<label for="">Piso:</label>
+						<input class="short" type="number" min="-5" max="20" name="" value="0" id="floor">
+						<label for="">Dto:</label>
+						<input class="short" type="number" min="0" max="30" name="" value="0" id="dtt">
+						<label for=""><i>(0 = PB)</i></label><br>
+						
+					</form>
+					<div>
+						<p>❕: No utilice contraseñas de otras redes sociales o cuentas. <a href="">¿Por qué?</a></p>
+						<input type="button" value="Registrar" id="signUp">
+					</div>
+				</div>
+			</div>
+		</section>
+	</main>
+	<footer class="footer-new">
+		<article id="">
+			<a href="https://twitter.com/SiteKiwi"><img class="footer__img" src="../images/twitter.png" alt="twitter"></a>
+			<a href="https://instagram.com/kiwisite_"><img id="instaLogo" class="footer__img" src="../images/instagram.png" alt="instagram"></a>
+		</article>
+	</footer>
+	<script src="../lib/sweetalert.min.js"></script>
+	<script src="../js/functions.js"></script>
+	<script src="../js/register.js"></script>
+</body>
+</html>

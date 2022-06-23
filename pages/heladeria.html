@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="author" content="Catriel Kahla">
+	<meta name="description"
+		content="Un sitio web donde podrás encontrar artículos y secciones en las que hayarás información de los diferentes temas y ámbitos.">
+	<meta name="keywords"
+		content="kiwi, artículos, secciones, información, kiwisite, programación, javascript, css, html, Catriel, Kahla">
+	<link rel="icon" href="../images/icon.ico">
+	<link rel="stylesheet" href="../css/main.css">
+	<link rel="stylesheet" href="../css/bootstrap.min.css">
+	<script src="../lib/bootstrap.min.js"></script>
+	<title>Kiwi-site | Heladeria</title>
+</head>
+
+<body class="body body-s">
+	<header class="header-new">
+		<article class="article-nav">
+			<div class="nav__div1">
+				<img class="div1__img" src="../images/image2.png" alt="kiwi">
+				<a class="div1__kiwi" href="../index.html">
+					<h1 class="textsize-3">Kiwi-site!</h1>
+				</a>
+			</div>
+		</article>
+
+		<div class="div--nav">
+			<span id="articleBack" class="artUser__out"></span>
+			<article class="article-nav artNav">
+				<img src="../images/userIco.png" alt="user"><p id="userTextt"></p>
+				<span id="userInfo" class="artUser">
+					<div class="userInfo">
+						<a href="userInfo.html"><p>Editar perfil</p></a><hr>
+						<p id="logOut">Cerrar sesión</p>
+					</div>
+				</span>
+			</article>
+			<article class="article-nav artNav" >
+				<img src="../images/burgerList.png" alt="pagesList" id="pagesList">
+				<span id="pagessListB" class="artUser">
+					<div class="userInfo" id="pagessList">
+						<h5 class="offcanvas-title textsize-3" id="offcanvasNavbarLabel">Kiwi-Food</h5><hr>
+						<ul class="navbar-nav justify-content-end flex-grow-1 pe-3 textsize-2">
+							<li class="nav-item">
+					  			<a class="nav-link active" aria-current="page" href="kiwiResto.html">Home</a>
+							</li>
+							<li class="nav-item">
+					  			<a class="nav-link" href="register.html">Registrarse</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="kiwi.html">¿Qué es Kiwi?</a>
+						  	</li>
+						  	<li class="nav-item">
+								<a class="nav-link" href="developer.html">Desarrollador</a>
+					  		</li>
+							<li class="nav-item dropdown">
+					  			<a class="nav-link dropdown-toggle" href="" id="offcanvasNavbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+									Lugares de comida...
+					  			</a>
+					  			<ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown" id="restoList">
+									
+					  			</ul>
+							</li>
+				  		</ul>
+					</div>
+				</span>
+			</article>
+		</div>
+	</header>
+	<main>
+		<div class="main__img">
+			<img src="../images/ice.jpg" alt="Heladeria">
+			<h2>HELADERÍA</h2>
+		</div>
+		<div class="main__divresto">
+			<div class="main__restoBox">
+				<h3><i> Delivery</i></h3>
+				<hr>
+				<form action="">
+					<label for="">Nombre del cliente:</label>
+					<input type="text" name="" autofocus id="namee">
+					<label for="">Télefono:</label>
+					<input type="number">
+					<label for="">Dirección:</label>
+					<input type="text">
+					<label for="">Piso:</label>
+					<input class="short" type="number" min="-5" max="20" name="" value="0">
+					<label for="">Dto:</label>
+					<input class="short" type="number" min="0" max="30" name="" value="0">
+					<label for=""><i>(0 = PB)</i></label><br>
+					<label class="textpedidos" for="">Pedido:</label>
+					<textarea name="" cols="70" rows="7" placeholder="Un kilo de helado..."></textarea>
+				</form>
+				<div>
+					<input type="button" value="Autocompletar" id="butInfo">
+					<input type="submit" value="Enviar">
+					<div>
+						<input type="checkbox" name="">Guardar información.
+					</div>
+				</div>
+			</div>
+		</div>
+	</main>
+	<footer class="footer-new">
+		<article id="">
+			<a href="https://twitter.com/SiteKiwi"><img class="footer__img" src="../images/twitter.png" alt="twitter"></a>
+			<a href="https://instagram.com/kiwisite_"><img id="instaLogo" class="footer__img" src="../images/instagram.png" alt="instagram"></a>
+		</article>
+	</footer>
+	<script src="../js/functions.js"></script>
+	<script src="../js/resto.js"></script>
+</body>
+
+</html>

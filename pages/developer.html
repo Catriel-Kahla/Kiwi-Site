@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+	<meta name="author" content="Catriel Kahla">
+	<meta name="description" content="Un sitio web donde podrás encontrar artículos y secciones en las que hayarás información de los diferentes temas y ámbitos.">
+	<meta name="keywords" content="kiwi, artículos, secciones, información, kiwisite, programación, javascript, css, html, Catriel, Kahla">
+	<link rel="icon" href="../images/icon.ico">
+	<link rel="stylesheet" href="../css/main.css">
+	<link rel="stylesheet" href="../css/bootstrap.min.css">
+	<script src="../lib/bootstrap.min.js"></script>
+    <title>Kiwi-site | Desarrollador</title>
+</head>
+<body class="body">
+    <header class="header-new">
+		<article class="article-nav">
+			<div class="nav__div1">
+				<img class="div1__img" src="../images/image2.png" alt="kiwi">
+				<a class="div1__kiwi" href="../index.html">
+					<h1 class="textsize-3">Kiwi-site!</h1>
+				</a>
+			</div>
+		</article>
+
+		<div class="div--nav">
+			<span id="articleBack" class="artUser__out"></span>
+			<article class="article-nav artNav">
+				<img src="../images/userIco.png" alt="user"><p id="userTextt">@UserName</p>
+				<span id="userInfo" class="artUser">
+					<div class="userInfo">
+						<a href="userInfo.html"><p>Editar perfil</p></a><hr>
+						<p id="logOut">Cerrar sesión</p>
+					</div>
+				</span>
+			</article>
+			<article class="article-nav artNav" >
+				<img src="../images/burgerList.png" alt="pagesList" id="pagesList">
+				<span id="pagessListB" class="artUser">
+					<div class="userInfo" id="pagessList">
+						<h5 class="offcanvas-title textsize-3" id="offcanvasNavbarLabel">Kiwi-Food</h5><hr>
+						<ul class="navbar-nav justify-content-end flex-grow-1 pe-3 textsize-2">
+							<li class="nav-item">
+					  			<a class="nav-link active" aria-current="page" href="kiwiResto.html">Home</a>
+							</li>
+							<li class="nav-item">
+					  			<a class="nav-link" href="register.html">Registrarse</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="kiwi.html">¿Qué es Kiwi?</a>
+						  	</li>
+						  	<li class="nav-item">
+								<a class="nav-link" href="developer.html">Desarrollador</a>
+					  		</li>
+							<li class="nav-item dropdown">
+					  			<a class="nav-link dropdown-toggle" href="" id="offcanvasNavbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+									Lugares de comida...
+					  			</a>
+					  			<ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown" id="restoList">
+									
+					  			</ul>
+							</li>
+				  		</ul>
+					</div>
+				</span>
+			</article>
+		</div>
+	</header>
+    <main class="main--index"> <!-- main -->
+		<section class="main__section1">
+			<h2 class="section1__text section1__text--title">Desarrollador</h2>
+			<h3 class="section1__text">Catriel Gabriel Kahla<hr></h3> 
+			<label class="section1__label" for="">Email: catrielgkahla@gmail.com</label>
+			<div class="section1__div">
+				<label class="section1__label section1__label--grid" for="">Twitter: <a href="https://twitter.com/CatrielKahla">@CatrielKahla</a></label>
+				<label class="section1__label" for="">LinkedIn: <a href="https://www.linkedin.com/in/catriel-kahla-b01188222">Catriel Kahla</a></label>
+			</div>
+			<div class="main--index">
+				<img class="sec1__img" src="../images/image1.png" alt="icono kiwi" id="regOff">
+			</div>
+		</section>
+		<div class="main__titulo">
+			<h2 class="textsize-3">Desarrollo</h2>
+		</div>
+		<section class="main__sec2--p">
+			<p>Kiwi está en etapa temprana de desarrollo. Aunque contiene pocos artículos por el momento, tendrás la oportunidad de 
+				disfrutar de la navegabilidad y opciones que ofrece Kiwi.
+			</p>
+		</section>
+	</main>
+	<footer class="footer-new">
+		<article id="">
+			<a href="https://twitter.com/SiteKiwi"><img class="footer__img" src="../images/twitter.png" alt="twitter"></a>
+			<a href="https://instagram.com/kiwisite_"><img id="instaLogo" class="footer__img" src="../images/instagram.png" alt="instagram"></a>
+		</article>
+	</footer>
+	<script src="../js/functions.js"></script>
+	<script src="../js/developer.js"></script>
+</body>
+</html>

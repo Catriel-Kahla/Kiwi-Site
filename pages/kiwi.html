@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+	<meta name="author" content="Catriel Kahla">
+	<meta name="description" content="Un sitio web donde podrás encontrar artículos y secciones en las que hayarás información de los diferentes temas y ámbitos.">
+	<meta name="keywords" content="kiwi, artículos, secciones, información, kiwisite, programación, javascript, css, html, Catriel, Kahla">
+	<link rel="icon" href="../images/icon.ico">
+	<link rel="stylesheet" href="../css/main.css">
+	<link rel="stylesheet" href="../css/bootstrap.min.css">
+	<script src="../lib/bootstrap.min.js"></script>
+    <title>Kiwi-site | ¿Qué es Kiwi?</title>
+</head>
+<body class="body">
+    <header class="header-new">
+		<article class="article-nav">
+			<div class="nav__div1">
+				<img class="div1__img" src="../images/image2.png" alt="kiwi">
+				<a class="div1__kiwi" href="../index.html">
+					<h1 class="textsize-3">Kiwi-site!</h1>
+				</a>
+			</div>
+		</article>
+
+		<div class="div--nav">
+			<span id="articleBack" class="artUser__out"></span>
+			<article class="article-nav artNav">
+				<img src="../images/userIco.png" alt="user"><p id="userTextt">@UserName</p>
+				<span id="userInfo" class="artUser">
+					<div class="userInfo">
+						<a href="userInfo.html"><p>Editar perfil</p></a><hr>
+						<p id="logOut">Cerrar sesión</p>
+					</div>
+				</span>
+			</article>
+			<article class="article-nav artNav" >
+				<img src="../images/burgerList.png" alt="pagesList" id="pagesList">
+				<span id="pagessListB" class="artUser">
+					<div class="userInfo" id="pagessList">
+						<h5 class="offcanvas-title textsize-3" id="offcanvasNavbarLabel">Kiwi-Food</h5><hr>
+						<ul class="navbar-nav justify-content-end flex-grow-1 pe-3 textsize-2">
+							<li class="nav-item">
+					  			<a class="nav-link active" aria-current="page" href="kiwiResto.html">Home</a>
+							</li>
+							<li class="nav-item">
+					  			<a class="nav-link" href="register.html">Registrarse</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="kiwi.html">¿Qué es Kiwi?</a>
+						  	</li>
+						  	<li class="nav-item">
+								<a class="nav-link" href="developer.html">Desarrollador</a>
+					  		</li>
+							<li class="nav-item dropdown">
+					  			<a class="nav-link dropdown-toggle" href="" id="offcanvasNavbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+									Lugares de comida...
+					  			</a>
+					  			<ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown" id="restoList">
+									
+					  			</ul>
+							</li>
+				  		</ul>
+					</div>
+				</span>
+			</article>
+		</div>
+	</header>
+	<main class="main--index">
+		<section class="main__section11">
+    		<h2 class="section1__h2">¿Qué es </h2>
+			<h2 class="section1__h2 section1__h2--kiwi">Kiwi?</h2>
+			<div class="sec__divkiwi">
+				<img class="section1__img" src="../images/image1.png" alt="">
+				<p class="section1__p">Kiwi es un sitio web donde encontrarás restaurantes, cafeterías, heladerías 
+					y más. Además podrás realizar tus reservas o pedidos de delivery de una forma intuitiva y 
+					sencilla.
+				</p>
+			</div>
+		</section>
+		<hr>
+		<section>
+			<p class="p__creditos">Créditos: <a target="_blank" href="https://www.flaticon.es/iconos-gratis/buscar" title="buscar iconos">Pixel perfect - Flaticon</a></p>
+		</section>
+	</main>
+	<footer class="footer-new">
+		<article id="">
+			<a href="https://twitter.com/SiteKiwi"><img class="footer__img" src="../images/twitter.png" alt="twitter"></a>
+			<a href="https://instagram.com/kiwisite_"><img id="instaLogo" class="footer__img" src="../images/instagram.png" alt="instagram"></a>
+		</article>
+	</footer>
+	<script src="../js/functions.js"></script>
+	<script src="../js/kiwi.js"></script>
+</body>
+</html>
