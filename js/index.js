@@ -52,6 +52,8 @@ function userActive(){
         document.querySelector(".intro a").style.display = "none";
         document.getElementById("articleResto").style.animationName = "restoOpen";
         document.getElementById("articleResto").style.bottom = "10em";
+        document.getElementById("articleGame").style.animationName = "restoOpen";
+        document.getElementById("articleGame").style.bottom = "10em";
         document.getElementById("articleLinks").style.animationName = "linksOpen";
         document.getElementById("articleLinks").style.left = "1em";
 
